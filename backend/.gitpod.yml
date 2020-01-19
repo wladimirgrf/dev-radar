@@ -1,6 +1,0 @@
-ports:
-- port: 3333
-tasks:
-- init: yarn && yarn build
-  command: yarn dev --host 0.0.0.0
-- init: npm install
