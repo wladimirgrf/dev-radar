@@ -1,4 +1,6 @@
 tasks:
+  - init: cd backend && yarn install
+  - command: cd backend && yarn build
   - command: cd backend && yarn add nodemon
   - command: cd backend && yarn add express
   - command: cd backend && yarn add axios
