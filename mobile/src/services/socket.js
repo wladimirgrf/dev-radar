@@ -1,6 +1,6 @@
 import socketio from 'socket.io-client'
 
-const socket = socketio('http://192.168.0.104:3333', {
+const socket = socketio('https://3333-ba759df8-60eb-4baa-8eef-738f55487a19.ws-us02.gitpod.io', {
     autoConnect: false,
 })
 
