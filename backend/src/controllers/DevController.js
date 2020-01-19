@@ -46,6 +46,6 @@ module.exports = {
             sendMessage(sendSocketMessageTo, 'new-dev', dev)
         }
 
-        return response.json(dev);
+        return response.json(dev)
     }
 };

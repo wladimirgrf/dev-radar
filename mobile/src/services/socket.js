@@ -23,8 +23,4 @@ function disconnect(){
     }
 }
 
-export{
-    connect,
-    disconnect,
-    subscribeToNewDevs
-}
+export{connect,disconnect,subscribeToNewDevs}
