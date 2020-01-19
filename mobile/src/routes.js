@@ -24,10 +24,9 @@ const Routes = createAppContainer(
             headerBackTitleVisible: false,
             headerStyle:{
                 backgroundColor: '#7d40e7',
-
             }
         },
     })
 );
 
-export default Routes;
+export default Routes
