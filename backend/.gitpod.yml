@@ -1,10 +1,6 @@
-image:
-  file: .gitpod.Dockerfile
-
 ports:
-  - port: 3333
-    onOpen: open-preview
-
+- port: 3333
 tasks:
-  - init: yarn && yarn build
-    command: yarn dev
+- init: yarn && yarn build
+  command: yarn dev --host 0.0.0.0
+- init: npm install
