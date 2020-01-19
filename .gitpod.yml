@@ -1,0 +1,9 @@
+tasks:
+  command: cd backend
+  command: yarn add nodemon
+  command: yarn add express
+  command: yarn add axios
+  command: yarn add mongoose
+  command: yarn add cors
+  command: yarn add socket.io
+  command: yarn dev
