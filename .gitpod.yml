@@ -1,9 +1,4 @@
 tasks:
   - init: cd backend && yarn install
-  - command: cd backend && yarn build
-  - command: cd backend && yarn add nodemon
-  - command: cd backend && yarn add express
-  - command: cd backend && yarn add axios
-  - command: cd backend && yarn add mongoose
-  - command: cd backend && yarn add cors
-  - command: cd backend && yarn add socket.io
+    command: cd backend && yarn build
+
