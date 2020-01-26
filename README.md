@@ -7,6 +7,19 @@
 </h4>
 
 <p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wladimirfrost/devRadar">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirfrost/devRadar">
+
+  <a href="https://github.com/Rocketseat/semana-omnistack-10/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirfrost/devRadar">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+
+<p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
