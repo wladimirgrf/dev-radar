@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from 'react'
-import {StyleSheet, Image, View, Text, TextInput, TouchableOpacity} from 'react-native'
+import {Image, View, Text, TextInput, TouchableOpacity} from 'react-native'
 import MapView, {Marker, Callout} from 'react-native-maps'
 import {requestPermissionsAsync, getCurrentPositionAsync} from 'expo-location'
 import {MaterialIcons} from '@expo/vector-icons'
 
 import api from '../services/api'
+import styles from '../layout/Styles'
 import {connect,disconnect,subscribeToNewDevs} from '../services/socket'
 
 function Main({navigation}){
@@ -122,73 +123,5 @@ function Main({navigation}){
         </>
     )
 }
-
-const styles = StyleSheet.create({
-    map:{
-        flex:1
-    },
-    avatar:{
-        width:54,
-        height:54,
-        borderRadius:4,
-        borderWidth:4,
-        borderColor: '#fff',
-    },
-
-    callout:{
-       width:260,
-
-    },
-
-    devName: {
-        fontWeight: 'bold',
-        fontSize: 16
-    },
-
-    devBio: {
-       color: '#666', 
-       marginTop: 5
-    },
-
-    devTechs:{
-        marginTop: 5 
-    },
-
-    searchForm: {
-        position: 'absolute',
-        top:20,
-        left:20,
-        right: 20, 
-        zIndex:5,
-        display:'flex',
-        flexDirection:'row'
-    },
-
-    searchInput:{
-        flex:1,
-        height:50,
-        backgroundColor:'#fff',
-        color:'#333',
-        borderRadius:25,
-        paddingHorizontal:20,
-        fontSize:16,
-        shadowColor:'#000',
-        shadowOpacity:0.2,
-        textShadowOffset:{
-            width:4,
-            height:4
-        },
-        elevation:2
-    },
-    loadButton:{
-        width:50,
-        height:50,
-        backgroundColor:'#8e4dff',
-        borderRadius:25,
-        justifyContent:'center',
-        alignItems:'center',
-        marginLeft:15
-    }
-})
 
 export default Main;
