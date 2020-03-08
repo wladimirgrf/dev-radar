@@ -58,6 +58,3 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
----
-
-Projeto desenvolvido durante a Semana OmniStack 10.0 :clap:
