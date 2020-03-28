@@ -1,4 +1,3 @@
 tasks:
   - init: cd backend && yarn install
-    command: cd backend && yarn build
 
