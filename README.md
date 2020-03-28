@@ -11,7 +11,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirfrost/devRadar">
 
-  <a href="https://github.com/Rocketseat/semana-omnistack-10/issues">
+  <a href="https://github.com/wladimirfrost/devRadar/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirfrost/devRadar">
   </a>
 
