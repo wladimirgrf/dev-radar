@@ -26,7 +26,7 @@
 
 ## 🌍 Ecosystem
 
-Below the Stack (set of tools), used to build this project. High productivity and performance:
+Below the Stack (set of tools) used to build this project. High productivity and performance:
 
 |                      Environment                            |                         Description                     |
 |:-----------------------------------------------------------:|:-------------------------------------------------------:|
@@ -35,9 +35,34 @@ Below the Stack (set of tools), used to build this project. High productivity an
 |<a href="https://facebook.github.io/react-native/"><img width="48" height="48" src=".github/reactNative.svg"></a>| To create native apps for Android and iOS |
 |<a href="https://expo.io/"><img width="48" height="48" src=".github/expo.svg"></a>| Enables you to build universal native apps using only JavaScript |
 
-## 💻 Projeto
+## 💻 Getting started
 
-DevRadar é um projeto que visa conectar desenvolvedores próximos a você e que trabalham com as mesmas tecnologias.
+You can get this application running on your local environment in few minutes with these steps:
+
+**Backend**
+
+1. Clone the repository;
+2. Move into the project folder: `cd backend`;
+3. Replace _mongodb uri_ in [index](backend/src/index.js) file.
+4. Run `yarn` to install all the dependencies;
+5. Run `yarn dev`;
+
+**Webpage**
+
+6. Move into the project folder: `cd web`;
+7. Run `yarn` to install all the dependencies;
+8. Run `yarn start`;
+
+**Mobile app**
+
+6. Move into the project folder: `cd mobile`;
+7. Replace _baseURL_` in [api](mobile/src/services/api.js) file.
+8. Replace _socket uri_ in [socket](mobile/src/services/socket.js) file.
+9. Run `yarn` to install all the dependencies;
+10. Run `yarn start`;
+11. Download Expo App for <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www">Android</a> or <a href="https://apps.apple.com/app/apple-store/id982107779">IPhone</a>;
+12. Scan the QR code;
+
 
 ## 🤝 Contributing
 
