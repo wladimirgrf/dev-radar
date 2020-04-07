@@ -60,7 +60,7 @@ You can get this application running on your local environment in few minutes wi
 8. Replace _socket uri_ in [socket](mobile/src/services/socket.js) file.
 9. Run `yarn` to install all the dependencies;
 10. Run `yarn start`;
-11. Download Expo App for <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www">Android</a> or <a href="https://apps.apple.com/app/apple-store/id982107779">IPhone</a>;
+11. Download Expo App for <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www">Android</a> or <a href="https://apps.apple.com/app/apple-store/id982107779">iOS</a>;
 12. Scan the QR code;
 
 
