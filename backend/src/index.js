@@ -3,9 +3,9 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const http = require('http')
 
-//Replace mogodb_connection_url with your mongodb connection URL (something like: mongodb+srv://<user>:<password>@<cluster>)
+//Replace mongodb_connection_url with your mongodb connection URL (something like: mongodb+srv://<user>:<password>@<cluster>)
 
-mongoose.connect(`${mogodb_connection_url}`,{
+mongoose.connect(`${mongodb_connection_url}`,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
