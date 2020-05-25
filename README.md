@@ -7,12 +7,12 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wladimirfrost/devRadar">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wladimirgrf/dev-radar">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirfrost/devRadar">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirgrf/dev-radar">
 
-  <a href="https://github.com/wladimirfrost/devRadar/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirfrost/devRadar">
+  <a href="https://github.com/wladimirgrf/dev-radar/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirgrf/dev-radar">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
